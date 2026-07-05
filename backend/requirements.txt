@@ -1,0 +1,17 @@
+# Kramly Backend — Python dependencies
+# Install: pip install -r requirements.txt
+
+# --- Core ---
+fastapi==0.111.0
+uvicorn==0.30.1
+pydantic==2.13.4
+pydantic-settings==2.14.2
+
+# --- Database ---
+neo4j==6.2.0
+
+# --- Utilities ---
+python-dotenv==1.0.1
+
+# --- Testing (dev only) ---
+pytest==9.1.1
